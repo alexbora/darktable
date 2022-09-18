@@ -2504,16 +2504,16 @@ msgstr ""
 
 #: ../src/develop/blend_gui.c:1536 ../src/develop/blend_gui.c:1540
 msgid "toggle polarity. best seen by enabling 'display mask'"
-msgstr ""
+msgstr "inverseaza polaritatea. mai evident cand se activeaza 'display mask'"
 
 #: ../src/develop/blend_gui.c:1549
 #, fuzzy
 msgid "output"
-msgstr "în scop de ieșire"
+msgstr "ieșire"
 
 #: ../src/develop/blend_gui.c:1560
 msgid "input"
-msgstr ""
+msgstr "intrare"
 
 #: ../src/develop/blend_gui.c:1571 ../src/develop/blend_gui.c:1572
 #, fuzzy
@@ -2522,14 +2522,14 @@ msgstr "dublu-clic pentru reset"
 
 #: ../src/develop/blend_gui.c:1610 ../src/develop/blend_gui.c:2280
 msgid "parametric mask"
-msgstr ""
+msgstr "masca parametrica"
 
 #: ../src/develop/blend_gui.c:1644
 #, fuzzy, c-format
 msgid "%d shape used"
 msgid_plural "%d shapes used"
-msgstr[0] "formă"
-msgstr[1] "formă"
+msgstr[0] "formă %d"
+msgstr[1] "%d forme"
 
 #: ../src/develop/blend_gui.c:1649 ../src/develop/blend_gui.c:1704
 #: ../src/develop/blend_gui.c:1793 ../src/develop/blend_gui.c:1904
@@ -2543,7 +2543,7 @@ msgstr ""
 #: ../src/develop/blend_gui.c:2553 ../src/develop/blend_gui.c:2563
 #, fuzzy
 msgid "blend"
-msgstr "mixează L"
+msgstr "mixează"
 
 #: ../src/develop/blend_gui.c:1703 ../src/develop/blend_gui.c:1768
 #: ../src/develop/blend_gui.c:2271
@@ -2562,13 +2562,13 @@ msgstr ""
 #: ../src/develop/blend_gui.c:1731 ../src/libs/masks.c:993
 #: ../src/libs/masks.c:1032 ../src/libs/masks.c:1643
 msgid "add gradient"
-msgstr ""
+msgstr "adauga gradient"
 
 #: ../src/develop/blend_gui.c:1739 ../src/iop/retouch.c:2675
 #: ../src/iop/spots.c:664 ../src/libs/masks.c:989 ../src/libs/masks.c:1028
 #: ../src/libs/masks.c:1649
 msgid "add path"
-msgstr ""
+msgstr "adauga cale"
 
 #: ../src/develop/blend_gui.c:1747 ../src/iop/retouch.c:2682
 #: ../src/iop/spots.c:671 ../src/libs/masks.c:985 ../src/libs/masks.c:1024
@@ -2580,12 +2580,12 @@ msgstr ""
 #: ../src/iop/spots.c:678 ../src/libs/masks.c:981 ../src/libs/masks.c:1020
 #: ../src/libs/masks.c:1663
 msgid "add circle"
-msgstr ""
+msgstr "adauga cerc"
 
 #: ../src/develop/blend_gui.c:1763 ../src/iop/retouch.c:2669
 #: ../src/libs/masks.c:1016 ../src/libs/masks.c:1669
 msgid "add brush"
-msgstr ""
+msgstr "adauga pensula"
 
 #: ../src/develop/blend_gui.c:1903 ../src/develop/blend_gui.c:2301
 #, fuzzy
@@ -2601,7 +2601,7 @@ msgstr "opacitatea siglei"
 #: ../src/develop/blend_gui.c:2201 ../src/libs/live_view.c:408
 msgctxt "blendmode"
 msgid "normal"
-msgstr ""
+msgstr "normal"
 
 #: ../src/develop/blend_gui.c:2202
 #, fuzzy
@@ -2613,13 +2613,13 @@ msgstr " (scos din uz)"
 #, fuzzy
 msgctxt "blendmode"
 msgid "lighten"
-msgstr "luminozitate"
+msgstr "creste luminozitatea"
 
 #: ../src/develop/blend_gui.c:2204 ../src/libs/live_view.c:416
 #, fuzzy
 msgctxt "blendmode"
 msgid "darken"
-msgstr "întunecat"
+msgstr "întuneca"
 
 #: ../src/develop/blend_gui.c:2205 ../src/libs/live_view.c:413
 msgctxt "blendmode"
@@ -2635,7 +2635,7 @@ msgstr ""
 #, fuzzy
 msgctxt "blendmode"
 msgid "addition"
-msgstr "navigare"
+msgstr "adaugare"
 
 #: ../src/develop/blend_gui.c:2208
 msgctxt "blendmode"
@@ -2646,13 +2646,13 @@ msgstr ""
 #, fuzzy
 msgctxt "blendmode"
 msgid "difference"
-msgstr "preferinţe darktable"
+msgstr "diferenta"
 
 #: ../src/develop/blend_gui.c:2210 ../src/libs/live_view.c:414
 #, fuzzy
 msgctxt "blendmode"
 msgid "screen"
-msgstr "verde"
+msgstr "ecran"
 
 #: ../src/develop/blend_gui.c:2211 ../src/libs/live_view.c:415
 msgctxt "blendmode"
@@ -2756,7 +2756,7 @@ msgstr "luminozitate"
 #, fuzzy
 msgctxt "blendmode"
 msgid "HSV color"
-msgstr "culoare"
+msgstr "culoare HSV"
 
 #: ../src/develop/blend_gui.c:2235
 #, fuzzy
@@ -2803,7 +2803,7 @@ msgstr " (scos din uz)"
 
 #: ../src/develop/blend_gui.c:2263
 msgid "uniformly"
-msgstr ""
+msgstr "uniform"
 
 #. overlays and
 #: ../src/develop/blend_gui.c:2291
@@ -2835,20 +2835,20 @@ msgstr ""
 #: ../src/develop/blend_gui.c:2484
 #, fuzzy
 msgid "exclusive"
-msgstr "sesiune"
+msgstr "exclusiv"
 
 #: ../src/develop/blend_gui.c:2487
 #, fuzzy
 msgid "inclusive"
-msgstr "include"
+msgstr "inclusiv"
 
 #: ../src/develop/blend_gui.c:2490
 msgid "exclusive & inverted"
-msgstr ""
+msgstr "exclusiv si inversat"
 
 #: ../src/develop/blend_gui.c:2493
 msgid "inclusive & inverted"
-msgstr ""
+msgstr "inclusiv si inversat"
 
 #: ../src/develop/blend_gui.c:2498
 msgid ""
@@ -2954,12 +2954,12 @@ msgstr "duplică"
 #: ../src/develop/imageop.c:1034 ../src/libs/masks.c:1153
 #, fuzzy
 msgid "move up"
-msgstr "elimină"
+msgstr "avanseaza"
 
 #: ../src/develop/imageop.c:1040 ../src/libs/masks.c:1156
 #, fuzzy
 msgid "move down"
-msgstr "navigare"
+msgstr "devanseaza"
 
 #. delete
 #: ../src/develop/imageop.c:1046 ../src/libs/image.c:144
@@ -2997,7 +2997,7 @@ msgstr "presetări"
 #, fuzzy
 msgctxt "accel"
 msgid "fusion"
-msgstr "sesiune"
+msgstr "fuziune"
 
 #. Adding the optional show accelerator to the table (blank)
 #: ../src/develop/imageop.c:1432
@@ -3009,7 +3009,7 @@ msgstr ""
 #, fuzzy
 msgctxt "accel"
 msgid "enable module"
-msgstr "activează backup-ul"
+msgstr "activează modulul"
 
 #: ../src/develop/imageop.c:1435 ../src/libs/lib.c:614
 #, fuzzy
@@ -3072,7 +3072,7 @@ msgstr "saturație"
 #: ../src/libs/geotagging.c:63
 #, fuzzy
 msgid "geotagging"
-msgstr "adăugare tag-uri"
+msgstr "adăugare geotag-uri"
 
 #. DT_COLLECTION_SORT_ID
 #: ../src/develop/lightroom.c:1535 ../src/libs/collect.h:34
@@ -3432,7 +3432,7 @@ msgstr "Blitz"
 #: ../src/external/wb_presets.c:70
 #, fuzzy
 msgid "flash (auto mode)"
-msgstr "Blity (mod automat)"
+msgstr "blit (mod automat)"
 
 #: ../src/external/wb_presets.c:71
 #, fuzzy
@@ -3451,7 +3451,7 @@ msgstr "Alb-negru"
 
 #: ../src/external/wb_presets.c:75
 msgid "spot WB"
-msgstr ""
+msgstr "balans de alb - spot"
 
 #: ../src/external/wb_presets.c:76
 #, fuzzy
