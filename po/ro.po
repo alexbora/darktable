@@ -3537,7 +3537,7 @@ msgstr "informații imagine"
 #: ../src/gui/accelerators.c:47 ../src/gui/accelerators.c:88
 msgctxt "accel"
 msgid "modules"
-msgstr ""
+msgstr "module"
 
 #: ../src/gui/accelerators.c:53 ../src/gui/accelerators.c:96
 #, fuzzy
@@ -3568,13 +3568,13 @@ msgstr "editează"
 #, fuzzy
 msgctxt "accel"
 msgid "dynamic"
-msgstr "panoramic"
+msgstr "dinamic"
 
 #: ../src/gui/accelerators.c:66 ../src/gui/accelerators.c:109
 #, fuzzy
 msgctxt "accel"
 msgid "lua"
-msgstr "luma"
+msgstr "lua"
 
 #: ../src/gui/accelerators.c:753 ../src/libs/lib.c:403
 msgid "deleting preset for obsolete module"
@@ -4087,21 +4087,21 @@ msgstr "nu se poate crea un stil dintr-o imagine nemodificată"
 #: ../src/gui/preferences.c:81 ../src/gui/presets.c:56
 #, fuzzy
 msgid "normal images"
-msgstr "elimină imagini?"
+msgstr "imagini normale"
 
 #: ../src/gui/preferences.c:82 ../src/gui/presets.c:57
 #: ../src/libs/metadata_view.c:295
 msgid "raw"
-msgstr ""
+msgstr "raw"
 
 #: ../src/gui/preferences.c:83 ../src/gui/presets.c:58
 msgid "HDR"
-msgstr ""
+msgstr "HDR"
 
 #. language
 #: ../src/gui/preferences.c:227
 msgid "interface language"
-msgstr ""
+msgstr "limba interfata"
 
 #: ../src/gui/preferences.c:242
 #, fuzzy
@@ -4116,12 +4116,12 @@ msgstr ""
 
 #: ../src/gui/preferences.c:253
 msgid "theme"
-msgstr ""
+msgstr "tema"
 
 #: ../src/gui/preferences.c:277
 #, fuzzy
 msgid "set the theme for the user interface"
-msgstr "introdu titlul portalului web"
+msgstr "seteaza tema pentru interfata utilizator"
 
 #: ../src/gui/preferences.c:288
 msgid "darktable preferences"
@@ -4157,7 +4157,7 @@ msgstr "obiectiv"
 #: ../src/gui/presets.c:451 ../src/libs/camera.c:588 ../src/libs/collect.h:37
 #: ../src/libs/metadata_view.c:118
 msgid "ISO"
-msgstr ""
+msgstr "ISO"
 
 #. exposure
 #: ../src/gui/preferences.c:522 ../src/gui/preferences.c:1465
@@ -4192,16 +4192,16 @@ msgstr "automat"
 #, fuzzy
 msgctxt "preferences"
 msgid "import..."
-msgstr "importă"
+msgstr "importă..."
 
 #. Adding the outer container
 #: ../src/gui/preferences.c:584
 msgid "shortcuts"
-msgstr ""
+msgstr "scurtaturi"
 
 #: ../src/gui/preferences.c:595
 msgid "shortcut"
-msgstr ""
+msgstr "scurtatura"
 
 #: ../src/gui/preferences.c:599
 msgid "binding"
@@ -4211,7 +4211,7 @@ msgstr ""
 #: ../src/gui/preferences.c:642 ../src/libs/styles.c:472
 #, fuzzy
 msgid "export..."
-msgstr "exportă"
+msgstr "exportă..."
 
 #. Setting the notification text
 #: ../src/gui/preferences.c:919
@@ -4246,13 +4246,13 @@ msgstr "șterge această presetare"
 #: ../src/gui/preferences.c:1155
 #, fuzzy
 msgid "select file to export"
-msgstr "selectează rola de film"
+msgstr "selectează fisierul pentru export"
 
 #. Zero value indicates import
 #: ../src/gui/preferences.c:1181
 #, fuzzy
 msgid "select file to import"
-msgstr "selectează una sau mai multe imagini pentru import"
+msgstr "selectează imagine pentru import"
 
 #: ../src/gui/preferences.c:1182 ../src/gui/preferences.c:1266
 #: ../src/libs/collect.c:243 ../src/libs/copy_history.c:79
@@ -4260,7 +4260,7 @@ msgstr "selectează una sau mai multe imagini pentru import"
 #: ../src/libs/import.c:867 ../src/libs/styles.c:324
 #, fuzzy
 msgid "_open"
-msgstr "openexr"
+msgstr "_deschide"
 
 #: ../src/gui/preferences.c:1225
 msgid ""
@@ -4272,7 +4272,7 @@ msgstr ""
 #: ../src/gui/preferences.c:1265
 #, fuzzy
 msgid "select preset to import"
-msgstr "selectează una sau mai multe imagini pentru import"
+msgstr "selectează presetarile pentru import"
 
 #: ../src/gui/preferences.c:1284
 #, fuzzy
@@ -4301,8 +4301,8 @@ msgid ""
 "be very careful with this option. this might be the last time you see your "
 "preset."
 msgstr ""
-"fii foarte atent cu această opțiune. poate fi ultima dată când vezi "
-"presetarea."
+"fii foarte atent cu această opțiune. poate fi ultima dată când ai acces la "
+"aceasta presetare."
 
 #: ../src/gui/preferences.c:1429 ../src/gui/presets.c:430
 #, no-c-format
@@ -4322,12 +4322,12 @@ msgstr "caută după obiectiv (folosește caracterul special %)"
 #: ../src/gui/preferences.c:1455 ../src/gui/presets.c:454
 #, fuzzy
 msgid "minimum ISO value"
-msgstr "valoarea iso minimă"
+msgstr "valoarea ISO minimă"
 
 #: ../src/gui/preferences.c:1458 ../src/gui/presets.c:457
 #, fuzzy
 msgid "maximum ISO value"
-msgstr "valoarea iso maximă"
+msgstr "valoarea ISO maximă"
 
 #: ../src/gui/preferences.c:1469 ../src/gui/presets.c:468
 msgid "minimum exposure time"
@@ -4363,7 +4363,7 @@ msgstr "format de fișier"
 #: ../src/gui/preferences.c:1617 ../src/imageio/storage/disk.c:122
 #: ../src/imageio/storage/gallery.c:109 ../src/imageio/storage/latex.c:108
 msgid "_select as output destination"
-msgstr ""
+msgstr "_selecteaza unde se salveaza"
 
 #: ../src/gui/preferences.c:1628
 #, fuzzy, c-format
@@ -4380,7 +4380,7 @@ msgstr "presetare nouă"
 
 #: ../src/gui/presets.c:224
 msgid "please give preset a name"
-msgstr ""
+msgstr "va rugam denumiti presetarea"
 
 #: ../src/gui/presets.c:229
 #, fuzzy
@@ -4397,7 +4397,7 @@ msgstr ""
 #: ../src/gui/presets.c:259 ../src/libs/lib.c:154
 #, fuzzy
 msgid "overwrite preset?"
-msgstr "suprascrie"
+msgstr "suprascrie presetare"
 
 #: ../src/gui/presets.c:404 ../src/libs/lib.c:248
 msgid "name of the preset"
@@ -4431,7 +4431,7 @@ msgstr "șterge această presetare"
 #: ../src/gui/presets.c:958
 #, fuzzy
 msgid "favourite"
-msgstr "favorit"
+msgstr "favorite"
 
 #: ../src/gui/styles_dialog.c:168 ../src/gui/styles_dialog.c:174
 #: ../src/libs/styles.c:311
@@ -4446,7 +4446,7 @@ msgstr "editează stil"
 #: ../src/gui/styles_dialog.c:273
 #, fuzzy
 msgid "duplicate style"
-msgstr "duplică"
+msgstr "duplică stil"
 
 #: ../src/gui/styles_dialog.c:274
 #, fuzzy
@@ -4474,7 +4474,7 @@ msgstr "introdu o descriere pentru noul stil, se poate căuta în descriere"
 #: ../src/gui/styles_dialog.c:370
 #, fuzzy
 msgid "update"
-msgstr "dată"
+msgstr "actualizează"
 
 #: ../src/gui/styles_dialog.c:465
 msgid "can't create style out of unaltered image"
@@ -4494,7 +4494,7 @@ msgstr ""
 
 #: ../src/imageio/format/exr.cc:189
 msgid "the selected output profile doesn't work well with exr"
-msgstr ""
+msgstr "profilul de ieșire selectat nu funcționează optim cu exr"
 
 #: ../src/imageio/format/exr.cc:336
 msgid "OpenEXR (float)"
@@ -4503,11 +4503,11 @@ msgstr ""
 #: ../src/imageio/format/exr.cc:355
 #, fuzzy
 msgid "compression mode"
-msgstr "comprimare"
+msgstr "mod comprimare"
 
 #: ../src/imageio/format/exr.cc:358
 msgid "RLE"
-msgstr ""
+msgstr "RLE"
 
 #: ../src/imageio/format/exr.cc:359
 msgid "ZIPS"
@@ -4515,12 +4515,12 @@ msgstr ""
 
 #: ../src/imageio/format/exr.cc:360
 msgid "ZIP"
-msgstr ""
+msgstr "ZIP"
 
 #: ../src/imageio/format/exr.cc:361
 #, fuzzy
 msgid "PIZ (default)"
-msgstr "(implicit)"
+msgstr "PIZ (implicit)"
 
 #: ../src/imageio/format/exr.cc:362
 msgid "PXR24 (lossy)"
@@ -4549,7 +4549,7 @@ msgstr ""
 #: ../src/imageio/format/j2k.c:659
 #, fuzzy
 msgid "DCP mode"
-msgstr "model"
+msgstr "mod DCP"
 
 #: ../src/imageio/format/j2k.c:661
 msgid "Cinema2K, 24FPS"
@@ -4570,20 +4570,20 @@ msgstr ""
 #: ../src/imageio/format/pdf.c:79 ../src/imageio/format/png.c:527
 #: ../src/imageio/format/tiff.c:467
 msgid "8 bit"
-msgstr ""
+msgstr "8 biți"
 
 #: ../src/imageio/format/pdf.c:80 ../src/imageio/format/png.c:528
 #: ../src/imageio/format/tiff.c:468
 msgid "16 bit"
-msgstr ""
+msgstr "16 biți"
 
 #: ../src/imageio/format/pdf.c:202 ../src/imageio/format/pdf.c:488
 msgid "invalid paper size"
-msgstr ""
+msgstr "dimensiune pagină invalidă"
 
 #: ../src/imageio/format/pdf.c:209
 msgid "invalid border size, using 0"
-msgstr ""
+msgstr "dimensiune ramă invalidă, selectez 0"
 
 #: ../src/imageio/format/pdf.c:258 ../src/imageio/storage/disk.c:332
 #: ../src/imageio/storage/email.c:136 ../src/imageio/storage/facebook.c:1311
@@ -4593,11 +4593,11 @@ msgstr ""
 #: ../src/imageio/storage/piwigo.c:969
 #, fuzzy, c-format
 msgid "could not export to file `%s'!"
-msgstr "nu s-a putut creea directorul `%s'!"
+msgstr "nu s-a putut exporta către fișierul `%s'!"
 
 #: ../src/imageio/format/pdf.c:412
 msgid "PDF"
-msgstr ""
+msgstr "PDF"
 
 #. title
 #. create labels
@@ -4616,13 +4616,13 @@ msgstr "titlu"
 #: ../src/imageio/format/pdf.c:593
 #, fuzzy
 msgid "enter the title of the pdf"
-msgstr "introdu titlul portalului web"
+msgstr "introdu titlul fișsierului PDF"
 
 #. // papers
 #: ../src/imageio/format/pdf.c:606 ../src/libs/print_settings.c:1271
 #, fuzzy
 msgid "paper size"
-msgstr "dimensiune max"
+msgstr "dimensiune pagină"
 
 #: ../src/imageio/format/pdf.c:611
 msgid ""
@@ -4640,12 +4640,12 @@ msgstr "rotire"
 #: ../src/libs/print_settings.c:1280
 #, fuzzy
 msgid "portrait"
-msgstr "importă"
+msgstr "vertical (portret)"
 
 #: ../src/imageio/format/pdf.c:623 ../src/iop/borders.c:1024
 #: ../src/libs/print_settings.c:1281
 msgid "landscape"
-msgstr ""
+msgstr "orizontal (panoramic)"
 
 #: ../src/imageio/format/pdf.c:626
 msgid "paper orientation of the pdf"
@@ -4655,7 +4655,7 @@ msgstr ""
 #: ../src/imageio/format/pdf.c:631
 #, fuzzy
 msgid "border"
-msgstr "selectează nuanţa de culoare"
+msgstr "ramă"
 
 #: ../src/imageio/format/pdf.c:641
 msgid ""
@@ -4667,16 +4667,16 @@ msgstr ""
 #. dpi
 #: ../src/imageio/format/pdf.c:653
 msgid "dpi"
-msgstr ""
+msgstr "dpi"
 
 #: ../src/imageio/format/pdf.c:661
 msgid "dpi of the images inside the pdf"
-msgstr ""
+msgstr "dimensiune dpi a imaginilor din pdf"
 
 #: ../src/imageio/format/pdf.c:668
 #, fuzzy
 msgid "rotate images"
-msgstr "elimină imagini?"
+msgstr "rotește imagini"
 
 #: ../src/imageio/format/pdf.c:673
 msgid ""
@@ -4686,12 +4686,12 @@ msgstr ""
 
 #: ../src/imageio/format/pdf.c:680
 msgid "TODO: pages"
-msgstr ""
+msgstr "TODO: pagini"
 
 #: ../src/imageio/format/pdf.c:682
 #, fuzzy
 msgid "single images"
-msgstr "importă imagine"
+msgstr "imagnini individuale"
 
 #: ../src/imageio/format/pdf.c:683
 #, fuzzy
@@ -4702,7 +4702,7 @@ msgstr "contrastant"
 #. g_signal_connect(G_OBJECT(d->pages), "value-changed", G_CALLBACK(pages_toggle_callback), self);
 #: ../src/imageio/format/pdf.c:686
 msgid "what pages should be added to the pdf"
-msgstr ""
+msgstr "ce pagini ar trebui adăugate la pdf"
 
 #: ../src/imageio/format/pdf.c:693
 #, fuzzy
@@ -4730,7 +4730,7 @@ msgstr "comprimare"
 #: ../src/imageio/format/pdf.c:721 ../src/imageio/format/tiff.c:482
 #, fuzzy
 msgid "uncompressed"
-msgstr "comprimă"
+msgstr "decomprimă"
 
 #: ../src/imageio/format/pdf.c:722 ../src/imageio/format/tiff.c:483
 msgid "deflate"
@@ -4746,15 +4746,15 @@ msgstr ""
 #: ../src/imageio/format/pdf.c:733
 #, fuzzy
 msgid "image mode"
-msgstr "imagine"
+msgstr "mod imagine"
 
 #: ../src/imageio/format/pdf.c:734
 msgid "normal"
-msgstr ""
+msgstr "normal"
 
 #: ../src/imageio/format/pdf.c:735
 msgid "draft"
-msgstr ""
+msgstr "schiță"
 
 #: ../src/imageio/format/pdf.c:736
 msgid "debug"
@@ -4801,7 +4801,7 @@ msgstr ""
 #: ../src/imageio/format/tiff.c:492
 #, fuzzy
 msgid "compression level"
-msgstr "comprimare"
+msgstr "nivel comprimare"
 
 #: ../src/imageio/format/webp.c:289
 msgid "WebP (8-bit)"
@@ -4810,7 +4810,7 @@ msgstr ""
 #: ../src/imageio/format/webp.c:321
 #, fuzzy
 msgid "compression type"
-msgstr "comprimare"
+msgstr "tip comprimare"
 
 #: ../src/imageio/format/webp.c:322
 msgid "lossy"
@@ -4818,7 +4818,7 @@ msgstr ""
 
 #: ../src/imageio/format/webp.c:323
 msgid "lossless"
-msgstr ""
+msgstr "fără pierderi (lossless)"
 
 #: ../src/imageio/format/webp.c:332
 msgid "applies only to lossy setting"
@@ -4827,7 +4827,7 @@ msgstr ""
 #: ../src/imageio/format/webp.c:339
 #, fuzzy
 msgid "image hint"
-msgstr "imagine"
+msgstr "indiciu imagine"
 
 #: ../src/imageio/format/webp.c:341
 msgid ""
@@ -4840,12 +4840,12 @@ msgstr ""
 #: ../src/imageio/format/webp.c:345
 #, fuzzy
 msgid "default"
-msgstr "(implicit)"
+msgstr "implicit"
 
 #: ../src/imageio/format/webp.c:346
 #, fuzzy
 msgid "picture"
-msgstr "apertura"
+msgstr "imagine"
 
 #: ../src/imageio/format/webp.c:347
 #, fuzzy
@@ -4883,7 +4883,7 @@ msgstr "suprascrie"
 
 #: ../src/imageio/storage/disk.c:202
 msgid "skip"
-msgstr ""
+msgstr "sări peste"
 
 #: ../src/imageio/storage/disk.c:281 ../src/imageio/storage/gallery.c:274
 #: ../src/imageio/storage/latex.c:273
@@ -4926,11 +4926,11 @@ msgstr "trimite pe email"
 #: ../src/imageio/storage/email.c:197
 #, fuzzy
 msgid "images exported from darktable"
-msgstr "exportat din darktable"
+msgstr "imagini exportate din darktable"
 
 #: ../src/imageio/storage/email.c:250
 msgid "could not launch email client!"
-msgstr ""
+msgstr "nu s-a putut iniția clientul de email!"
 
 #: ../src/imageio/storage/facebook.c:256
 #, c-format
@@ -4946,23 +4946,23 @@ msgid ""
 "upload photos before continuing."
 msgstr ""
 "pasul 1: ar trebui să se deschidă o nouă fereastră sau un nou tab în browser-"
-"ul tău. trebuie să faci login în contul tău flickr și să autorizezi "
-"darktable pentru upload înainte de a continua."
+"ul tău. trebuie să te autentifici în contul tău de facebook și să autorizezi "
+"darktable pentru upload înainte de a putea continua."
 
 #: ../src/imageio/storage/facebook.c:624
 #, fuzzy
 msgid ""
 "step 2: paste your browser URL and click the OK button once you are done."
-msgstr "pasul 2: dă clic pe butonul ok odată ce ai terminat."
+msgstr "pasul 2: dă clic pe butonul OK odată ce ai terminat."
 
 #: ../src/imageio/storage/facebook.c:630 ../src/imageio/storage/facebook.c:725
 #, fuzzy
 msgid "facebook authentication"
-msgstr "autentificare flickr"
+msgstr "autentificare facebook"
 
 #: ../src/imageio/storage/facebook.c:638
 msgid "URL:"
-msgstr ""
+msgstr "URL:"
 
 #: ../src/imageio/storage/facebook.c:660
 msgid "please enter the validation URL"
@@ -4975,7 +4975,7 @@ msgstr ""
 #: ../src/imageio/storage/facebook.c:701
 #, fuzzy
 msgid "authentication successful"
-msgstr "autentificare eşuată"
+msgstr "autentificare reușită"
 
 #: ../src/imageio/storage/facebook.c:705
 msgid "authentication failed"
@@ -4996,13 +4996,13 @@ msgstr ""
 #: ../src/imageio/storage/googlephoto.c:943
 #, fuzzy
 msgid "new account"
-msgstr "contor"
+msgstr "creează un cont nou"
 
 #: ../src/imageio/storage/facebook.c:856
 #: ../src/imageio/storage/googlephoto.c:948
 #, fuzzy
 msgid "other account"
-msgstr "cantitatea de vibranță"
+msgstr "alt cont"
 
 #: ../src/imageio/storage/facebook.c:885
 #: ../src/imageio/storage/googlephoto.c:976
@@ -5039,7 +5039,7 @@ msgstr ""
 #: ../src/imageio/storage/facebook.c:1099
 #, fuzzy
 msgid "facebook webalbum"
-msgstr "album flickr"
+msgstr "album facebook"
 
 #: ../src/imageio/storage/facebook.c:1121 ../src/imageio/storage/flickr.c:545
 msgid "summary"
@@ -5047,16 +5047,16 @@ msgstr "sumar"
 
 #: ../src/imageio/storage/facebook.c:1122
 msgid "privacy"
-msgstr ""
+msgstr "intimitate"
 
 #: ../src/imageio/storage/facebook.c:1168
 msgid "only me"
-msgstr ""
+msgstr "doar eu"
 
 #: ../src/imageio/storage/facebook.c:1171 ../src/imageio/storage/flickr.c:498
 #: ../src/imageio/storage/piwigo.c:828
 msgid "friends"
-msgstr ""
+msgstr "prieteni"
 
 #: ../src/imageio/storage/facebook.c:1174
 #, fuzzy
@@ -5066,18 +5066,18 @@ msgstr "album public"
 #: ../src/imageio/storage/facebook.c:1177
 #, fuzzy
 msgid "friends of friends"
-msgstr "regula treimilor"
+msgstr "prietenii prietenilor"
 
 #: ../src/imageio/storage/facebook.c:1320
 #: ../src/imageio/storage/googlephoto.c:1390
 msgid "unable to create album, no title provided"
-msgstr ""
+msgstr "nu pot crea album, nu ați dat nici un nume fișierului"
 
 #: ../src/imageio/storage/facebook.c:1329
 #: ../src/imageio/storage/googlephoto.c:1397
 #, fuzzy
 msgid "unable to create album"
-msgstr "creează album nou"
+msgstr "nu pot crea album nou"
 
 #: ../src/imageio/storage/facebook.c:1339
 msgid "unable to export photo to webalbum"
@@ -5147,24 +5147,24 @@ msgstr "utilizator flickr"
 
 #: ../src/imageio/storage/flickr.c:496 ../src/imageio/storage/piwigo.c:825
 msgid "visible to"
-msgstr ""
+msgstr "vizibil pentru"
 
 #: ../src/imageio/storage/flickr.c:497 ../src/imageio/storage/piwigo.c:830
 msgid "you"
-msgstr ""
+msgstr "tine"
 
 #: ../src/imageio/storage/flickr.c:499 ../src/imageio/storage/piwigo.c:829
 msgid "family"
-msgstr ""
+msgstr "familie"
 
 #: ../src/imageio/storage/flickr.c:500
 msgid "friends + family"
-msgstr ""
+msgstr "prieteni + familie"
 
 #: ../src/imageio/storage/flickr.c:501 ../src/imageio/storage/piwigo.c:826
 #, fuzzy
 msgid "everyone"
-msgstr "inversează"
+msgstr "toată lumea"
 
 #. Available albums
 #: ../src/imageio/storage/flickr.c:509
@@ -5185,12 +5185,12 @@ msgstr "exportat din darktable"
 
 #: ../src/imageio/storage/flickr.c:558 ../src/imageio/storage/piwigo.c:875
 msgid "click login button to start"
-msgstr ""
+msgstr "apasă pe butinul login pentru a incepe"
 
 #: ../src/imageio/storage/flickr.c:670
 #, fuzzy
 msgid "could not upload to flickr!"
-msgstr "nu s-a putut creea directorul `%s'!"
+msgstr "nu s-a putut incarca pe flickr!"
 
 #. this makes sense only if the export was successful
 #: ../src/imageio/storage/flickr.c:721
