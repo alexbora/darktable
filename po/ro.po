@@ -5276,12 +5276,12 @@ msgstr "neautentificat"
 #: ../src/imageio/storage/piwigo.c:589
 #, fuzzy
 msgid "---"
-msgstr "( --- )"
+msgstr "---"
 
 #: ../src/imageio/storage/piwigo.c:630
 #, fuzzy
 msgid "cannot refresh albums"
-msgstr "reîmprospătează lista de albume"
+msgstr "nu se poate reîmprospăta lista de albume"
 
 #: ../src/imageio/storage/piwigo.c:723
 msgid "piwigo"
@@ -5290,11 +5290,11 @@ msgstr ""
 #: ../src/imageio/storage/piwigo.c:748
 #, fuzzy
 msgid "accounts"
-msgstr "contor"
+msgstr "conturi"
 
 #: ../src/imageio/storage/piwigo.c:765
 msgid "server"
-msgstr ""
+msgstr "server"
 
 #: ../src/imageio/storage/piwigo.c:769
 msgid ""
@@ -5318,25 +5318,25 @@ msgstr ""
 #: ../src/imageio/storage/piwigo.c:827
 #, fuzzy
 msgid "contacts"
-msgstr "contrastant"
+msgstr "contacte"
 
 #. Available albums
 #: ../src/imageio/storage/piwigo.c:838
 #, fuzzy
 msgid "album"
-msgstr "albume"
+msgstr "album"
 
 #: ../src/imageio/storage/piwigo.c:863
 #, fuzzy
 msgid "new album"
-msgstr "noul meu album"
+msgstr "album nou"
 
 #. parent album list
 #. Available albums
 #: ../src/imageio/storage/piwigo.c:871
 #, fuzzy
 msgid "parent album"
-msgstr "creează album nou"
+msgstr "album superior (părinte)"
 
 #: ../src/imageio/storage/piwigo.c:988
 #, fuzzy
@@ -5359,7 +5359,7 @@ msgstr[1] "%d/%d exportate în albumul picasa"
 #: ../src/iop/ashift.c:112
 #, fuzzy
 msgid "perspective correction"
-msgstr "corecţie obiectiv"
+msgstr "corecţie perspectivă"
 
 #: ../src/iop/ashift.c:519 ../src/iop/watermark.c:264
 #, fuzzy
@@ -5387,7 +5387,7 @@ msgstr ""
 #: ../src/iop/ashift.c:2602
 #, fuzzy
 msgid "automatic cropping failed"
-msgstr "raport automat"
+msgstr "tăierea automată a eșuat"
 
 #: ../src/iop/ashift.c:2746
 msgid "data pending - please repeat"
@@ -5407,7 +5407,7 @@ msgstr ""
 
 #: ../src/iop/ashift.c:2822
 msgid "automatic correction failed, please correct manually"
-msgstr ""
+msgstr "corecția automată a eșuat, vă rog să o faceți manual"
 
 #: ../src/iop/ashift.c:4623 ../src/iop/ashift.c:4624 ../src/iop/ashift.c:4727
 #: ../src/iop/ashift.c:4728
@@ -5466,12 +5466,12 @@ msgstr "tip stocare"
 #: ../src/iop/ashift.c:4863
 #, fuzzy
 msgid "original format"
-msgstr "0 - original"
+msgstr "format original"
 
 #: ../src/iop/ashift.c:4867
 #, fuzzy
 msgid "lens model"
-msgstr "model"
+msgstr "model obiectiv"
 
 #: ../src/iop/ashift.c:4868
 #, fuzzy
@@ -5480,7 +5480,7 @@ msgstr "general"
 
 #: ../src/iop/ashift.c:4869
 msgid "specific"
-msgstr ""
+msgstr "specific"
 
 #: ../src/iop/ashift.c:4882
 msgid "crop factor"
@@ -5493,12 +5493,12 @@ msgstr ""
 #: ../src/iop/ashift.c:4897
 #, fuzzy
 msgid "aspect adjust"
-msgstr "aspect"
+msgstr "ajustare aspect"
 
 #: ../src/iop/ashift.c:4907
 #, fuzzy
 msgid "automatic fit"
-msgstr "automat"
+msgstr "potrivire automată"
 
 #: ../src/iop/ashift.c:4923
 #, fuzzy
@@ -5508,7 +5508,7 @@ msgstr "structura de stocare"
 #: ../src/iop/ashift.c:4968
 #, fuzzy
 msgid "rotate image"
-msgstr "elimină imagini?"
+msgstr "rotire imagine"
 
 #: ../src/iop/ashift.c:4969 ../src/iop/ashift.c:4970
 msgid "apply lens shift correction in one direction"
@@ -5527,7 +5527,7 @@ msgstr ""
 
 #: ../src/iop/ashift.c:4973 ../src/iop/clipping.c:2012
 msgid "automatically crop to avoid black edges"
-msgstr ""
+msgstr "tăiere automată pentru a evita marginile negre"
 
 #: ../src/iop/ashift.c:4974
 msgid ""
@@ -5618,7 +5618,7 @@ msgstr ""
 #: ../src/iop/atrous.c:117
 #, fuzzy
 msgid "contrast equalizer"
-msgstr "egalizator"
+msgstr "egalizator contrast"
 
 #: ../src/iop/atrous.c:137 ../src/iop/soften.c:108
 #, fuzzy
@@ -5635,17 +5635,17 @@ msgstr "grosier"
 #: ../src/iop/atrous.c:1080
 #, fuzzy
 msgid "denoise & sharpen"
-msgstr "eliminare zgomot (puternică)"
+msgstr "eliminare zgomot și accentuare claritate"
 
 #: ../src/iop/atrous.c:1094
 msgctxt "atrous"
 msgid "sharpen"
-msgstr "accentuare de claritate"
+msgstr "accentuare claritate"
 
 #: ../src/iop/atrous.c:1108
 #, fuzzy
 msgid "denoise chroma"
-msgstr "chroma"
+msgstr "eliminare zgomot de culoare"
 
 #: ../src/iop/atrous.c:1122 ../src/iop/equalizer.c:335
 msgid "denoise"
@@ -5770,7 +5770,7 @@ msgstr "accentuează sau diminuează efect"
 
 #: ../src/iop/basecurve.c:178
 msgid "neutral"
-msgstr ""
+msgstr "neutru"
 
 #: ../src/iop/basecurve.c:179
 msgid "canon eos like"
@@ -5779,7 +5779,7 @@ msgstr "similar canon eos"
 #: ../src/iop/basecurve.c:180
 #, fuzzy
 msgid "canon eos like alternate"
-msgstr "similar canon eos"
+msgstr "similar canon eos - alternativ"
 
 #: ../src/iop/basecurve.c:181
 msgid "nikon like"
@@ -5788,7 +5788,7 @@ msgstr "similar nikon"
 #: ../src/iop/basecurve.c:182
 #, fuzzy
 msgid "nikon like alternate"
-msgstr "similar nikon"
+msgstr "similar nikon alternativ"
 
 #: ../src/iop/basecurve.c:183
 msgid "sony alpha like"
@@ -5874,7 +5874,7 @@ msgstr "liniar"
 
 #: ../src/iop/basecurve.c:2132 ../src/iop/profile_gamma.c:858
 msgid "logarithmic"
-msgstr ""
+msgstr "logaritmic"
 
 #: ../src/iop/basecurve.c:2133 ../src/iop/tonecurve.c:1408
 msgid ""
@@ -5906,25 +5906,25 @@ msgstr "niciunul"
 #: ../src/iop/tonecurve.c:1394
 #, fuzzy
 msgid "luminance"
-msgstr "zone de culoare"
+msgstr "iluminare"
 
 #: ../src/iop/basecurve.c:2142 ../src/iop/basicadj.c:709
 #: ../src/iop/filmicrgb.c:1557 ../src/iop/rgbcurve.c:1622
 #: ../src/iop/rgblevels.c:1119 ../src/iop/tonecurve.c:1395
 msgid "max RGB"
-msgstr ""
+msgstr "RGB maxim"
 
 #: ../src/iop/basecurve.c:2143 ../src/iop/basicadj.c:710
 #: ../src/iop/rgbcurve.c:1623 ../src/iop/rgblevels.c:1120
 #: ../src/iop/tonecurve.c:1396
 msgid "average RGB"
-msgstr ""
+msgstr "RGB mediu"
 
 #: ../src/iop/basecurve.c:2144 ../src/iop/basicadj.c:711
 #: ../src/iop/rgbcurve.c:1624 ../src/iop/rgblevels.c:1121
 #: ../src/iop/tonecurve.c:1397
 msgid "sum RGB"
-msgstr ""
+msgstr "sumă RGB"
 
 #: ../src/iop/basecurve.c:2145 ../src/iop/basicadj.c:712
 #: ../src/iop/rgbcurve.c:1625 ../src/iop/rgblevels.c:1122
@@ -5949,17 +5949,17 @@ msgstr ""
 #: ../src/iop/basecurve.c:2152
 #, fuzzy
 msgid "fusion"
-msgstr "sesiune"
+msgstr "fuzinune"
 
 #: ../src/iop/basecurve.c:2154
 #, fuzzy
 msgid "two exposures"
-msgstr "expunere"
+msgstr "două expuneri"
 
 #: ../src/iop/basecurve.c:2155
 #, fuzzy
 msgid "three exposures"
-msgstr "expunere"
+msgstr "trei expuneri"
 
 #: ../src/iop/basecurve.c:2156
 msgid ""
@@ -5985,7 +5985,7 @@ msgstr ""
 #: ../src/iop/basecurve.c:2175
 #, fuzzy
 msgid "exposure bias"
-msgstr "expunere"
+msgstr "modificare expunere"
 
 #: ../src/iop/basicadj.c:92
 msgid "basic adjustments"
@@ -5994,7 +5994,7 @@ msgstr ""
 #: ../src/iop/basicadj.c:673 ../src/iop/exposure.c:896
 #, fuzzy
 msgid "black level correction"
-msgstr "corecţie obiectiv"
+msgstr "corecţie nivel de negru"
 
 #: ../src/iop/basicadj.c:675
 msgid ""
@@ -6029,16 +6029,16 @@ msgstr "contrastant"
 #: ../src/iop/basicadj.c:701 ../src/iop/colisa.c:387
 #, fuzzy
 msgid "contrast adjustment"
-msgstr "amplifică contrastul de culoare"
+msgstr "modificare contrast"
 
 #: ../src/iop/basicadj.c:719
 msgid "middle grey"
-msgstr ""
+msgstr "gri 18%"
 
 #: ../src/iop/basicadj.c:721
 #, fuzzy
 msgid "middle grey adjustment"
-msgstr "reconstrucţia elementelor luminoase"
+msgstr "ajustare gri 18%"
 
 #: ../src/iop/basicadj.c:733 ../src/iop/colisa.c:380 ../src/iop/retouch.c:2918
 #: ../src/iop/soften.c:748 ../src/iop/vignette.c:1158
@@ -6048,7 +6048,7 @@ msgstr "luminozitate"
 #: ../src/iop/basicadj.c:734 ../src/iop/colisa.c:388
 #, fuzzy
 msgid "brightness adjustment"
-msgstr "reconstrucţia elementelor luminoase"
+msgstr "ajsstare luminozitate"
 
 #. dt_bauhaus_slider_set_format(g->gslider2, "");
 #: ../src/iop/basicadj.c:739 ../src/iop/channelmixer.c:454
@@ -6065,7 +6065,7 @@ msgstr "saturație"
 #: ../src/iop/basicadj.c:740
 #, fuzzy
 msgid "saturation adjustment"
-msgstr "saturație"
+msgstr "ajustoare saturație"
 
 #: ../src/iop/basicadj.c:747
 msgid "apply auto exposure based on the entire image"
@@ -6080,7 +6080,7 @@ msgstr ""
 
 #: ../src/iop/basicadj.c:765
 msgid "clip"
-msgstr ""
+msgstr "tăiere"
 
 #: ../src/iop/basicadj.c:766
 msgid "adjusts clipping value for auto exposure calculation"
@@ -6104,7 +6104,7 @@ msgstr ""
 #: ../src/views/darkroom.c:1838
 #, fuzzy
 msgid "mode"
-msgstr "model"
+msgstr "mod"
 
 #: ../src/iop/bilat.c:527
 #, fuzzy
@@ -6125,12 +6125,12 @@ msgstr ""
 #: ../src/iop/bilat.c:535 ../src/iop/globaltonemap.c:737
 #, fuzzy
 msgid "detail"
-msgstr "detaşează"
+msgstr "detaliu"
 
 #: ../src/iop/bilat.c:537
 #, fuzzy
 msgid "changes the local contrast"
-msgstr "puterea contrastului local"
+msgstr "mdodifica contrastului local"
 
 #: ../src/iop/bilat.c:540 ../src/iop/grain.c:628
 msgid "coarseness"
