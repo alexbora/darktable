@@ -6161,23 +6161,23 @@ msgstr "umbre"
 #: ../src/iop/bilat.c:558
 #, fuzzy
 msgid "changes the local contrast of shadows"
-msgstr "puterea contrastului local"
+msgstr "modificări ale contrastului local in umbre"
 
 #: ../src/iop/bilat.c:563
 #, fuzzy
 msgid "midtone range"
-msgstr "bias pentru tonuri de mijloc"
+msgstr "gamă tonuri de mijloc"
 
 #: ../src/iop/bilat.c:564
 msgid ""
 "defines what counts as midtones. lower for better dynamic range compression "
 "(reduce shadow and highlight contrast), increase for more powerful local "
 "contrast"
-msgstr ""
+msgstr "definiți ce este important pentru tonalitățil medii. mai scăzut pentru o mai bună compresie a gamut-ului (micșorează contrastul umbrelor și al luminilor), modifică in sus pentru un contrast local mai puternic."
 
 #: ../src/iop/bilateral.cc:69
 msgid "denoise (bilateral filter)"
-msgstr ""
+msgstr "elimină zgomotul (filtru bilateral)"
 
 #: ../src/iop/bilateral.cc:89 ../src/iop/lowpass.c:196 ../src/iop/shadhi.c:279
 #: ../src/iop/sharpen.c:105
@@ -6282,7 +6282,7 @@ msgstr ""
 #: ../src/iop/borders.c:194
 msgctxt "accel"
 msgid "border size"
-msgstr ""
+msgstr "dimensiune ramă"
 
 #: ../src/iop/borders.c:195
 #, fuzzy
@@ -6320,7 +6320,7 @@ msgstr "3:2"
 
 #: ../src/iop/borders.c:941
 msgid "95:33"
-msgstr ""
+msgstr "95:33"
 
 #: ../src/iop/borders.c:942
 msgid "2:1"
@@ -6356,11 +6356,11 @@ msgstr "pătrat"
 
 #: ../src/iop/borders.c:950
 msgid "constant border"
-msgstr ""
+msgstr "ramă constantă"
 
 #: ../src/iop/borders.c:971 ../src/iop/borders.c:976
 msgid "center"
-msgstr ""
+msgstr "centru"
 
 #: ../src/iop/borders.c:972 ../src/iop/borders.c:977
 msgid "1/3"
@@ -6380,11 +6380,11 @@ msgstr ""
 
 #: ../src/iop/borders.c:1006
 msgid "border size"
-msgstr ""
+msgstr "dimensiune ramă"
 
 #: ../src/iop/borders.c:1009
 msgid "size of the border in percent of the full image"
-msgstr ""
+msgstr "dimensiune ramă, in procent față de dimensiunea imaginii"
 
 #: ../src/iop/borders.c:1014 ../src/iop/clipping.c:2115
 msgid "aspect"
@@ -6398,7 +6398,7 @@ msgstr ""
 #: ../src/libs/print_settings.c:1279
 #, fuzzy
 msgid "orientation"
-msgstr "rotire"
+msgstr "orientare"
 
 #: ../src/iop/borders.c:1025
 msgid "aspect ratio orientation of the image with border"
@@ -6449,12 +6449,12 @@ msgstr "selectează nuanţa de culoare"
 
 #: ../src/iop/borders.c:1065
 msgid "border color"
-msgstr ""
+msgstr "culoare ramă"
 
 #: ../src/iop/borders.c:1069
 #, fuzzy
 msgid "pick border color from image"
-msgstr "culege culoarea din imagine"
+msgstr "selectează culoarea ramei din imagine"
 
 #: ../src/iop/borders.c:1080
 #, fuzzy
@@ -6504,7 +6504,7 @@ msgstr "mixor de canale"
 #: ../src/iop/channelmixer.c:452
 #, fuzzy
 msgid "destination"
-msgstr "descriere"
+msgstr "destinație"
 
 #. dt_bauhaus_slider_set_format(g->gslider1, "");
 #: ../src/iop/channelmixer.c:453 ../src/iop/colorbalance.c:2504
@@ -6638,12 +6638,12 @@ msgstr ""
 
 #: ../src/iop/clipping.c:1699 ../src/iop/clipping.c:2003
 msgid "full"
-msgstr ""
+msgstr "complet"
 
 #: ../src/iop/clipping.c:1700
 #, fuzzy
 msgid "old system"
-msgstr "sistem de zone"
+msgstr "sistem vechi"
 
 #: ../src/iop/clipping.c:1701
 #, fuzzy
@@ -6657,7 +6657,7 @@ msgstr "întoarce"
 #: ../src/iop/clipping.c:1985 ../src/iop/clipping.c:2170
 #: ../src/iop/colorbalance.c:2378 ../src/libs/live_view.c:378
 msgid "both"
-msgstr ""
+msgstr "ambele"
 
 #: ../src/iop/clipping.c:1987
 #, fuzzy
@@ -6671,7 +6671,7 @@ msgstr "unghi"
 #: ../src/iop/clipping.c:1995
 msgid "right-click and drag a line on the image to drag a straight line"
 msgstr ""
-"dă clic dreapta și trage o linie pe imagine pentru a obține o linie dreaptă"
+"clic dreapta și trage o linie pe imagine pentru a obține o linie dreaptă"
 
 #: ../src/iop/clipping.c:1999
 #, fuzzy
@@ -6680,7 +6680,7 @@ msgstr "cheie de boltă h"
 
 #: ../src/iop/clipping.c:2004
 msgid "set perspective correction for your image"
-msgstr ""
+msgstr "setează corecția de perspectivă pentru imagine"
 
 #: ../src/iop/clipping.c:2016
 #, fuzzy
@@ -6690,7 +6690,7 @@ msgstr "liber"
 #: ../src/iop/clipping.c:2017
 #, fuzzy
 msgid "original image"
-msgstr "0 - original"
+msgstr "imagine originală"
 
 #: ../src/iop/clipping.c:2019
 msgid "10:8 in print"
@@ -6702,7 +6702,7 @@ msgstr ""
 
 #: ../src/iop/clipping.c:2021
 msgid "11x14"
-msgstr ""
+msgstr "11x14"
 
 #: ../src/iop/clipping.c:2022
 msgid "8.5x11, letter"
@@ -6714,11 +6714,11 @@ msgstr ""
 
 #: ../src/iop/clipping.c:2024
 msgid "5x7"
-msgstr ""
+msgstr "5x7"
 
 #: ../src/iop/clipping.c:2025
 msgid "ISO 216, DIN 476, A4"
-msgstr ""
+msgstr "ISO 216, DIN 476, A4"
 
 #: ../src/iop/clipping.c:2026
 msgid "3:2, 4x6, 35mm"
@@ -6735,7 +6735,7 @@ msgstr ""
 #: ../src/iop/clipping.c:2030
 #, fuzzy
 msgid "widescreen"
-msgstr "verde"
+msgstr "ecran lat"
 
 #: ../src/iop/clipping.c:2031
 msgid "2:1, univisium"
@@ -6751,7 +6751,7 @@ msgstr ""
 
 #: ../src/iop/clipping.c:2034
 msgid "anamorphic"
-msgstr ""
+msgstr "anamorfic"
 
 #: ../src/iop/clipping.c:2035
 #, fuzzy
@@ -6780,22 +6780,22 @@ msgstr ""
 #: ../src/libs/live_view.c:379
 #, fuzzy
 msgid "flip guides"
-msgstr "ghidaj"
+msgstr "inversează ghidaj"
 
 #: ../src/iop/clipping.c:2168 ../src/libs/live_view.c:376
 #, fuzzy
 msgid "horizontally"
-msgstr "centrare pe orizontală"
+msgstr "pe orizontală"
 
 #: ../src/iop/clipping.c:2169 ../src/libs/live_view.c:377
 #, fuzzy
 msgid "vertically"
-msgstr "întoarce imaginea pe verticală"
+msgstr "pe verticală"
 
 #: ../src/iop/clipping.c:3222
 msgctxt "accel"
 msgid "commit"
-msgstr ""
+msgstr "salvează"
 
 #: ../src/iop/clipping.c:3223
 #, fuzzy
@@ -6846,12 +6846,12 @@ msgstr "saturație"
 #: ../src/iop/colisa.c:389
 #, fuzzy
 msgid "color saturation adjustment"
-msgstr "selectează saturația filtrului"
+msgstr "ajustează saturația de culoare"
 
 #: ../src/iop/colorbalance.c:159
 #, fuzzy
 msgid "color balance"
-msgstr "etichetă culoare"
+msgstr "balans culoare"
 
 #: ../src/iop/colorbalance.c:164
 msgid "lift/gamma/gain controls as seen in video editors"
@@ -6869,26 +6869,26 @@ msgstr ""
 #: ../src/iop/colorbalance.c:282
 #, fuzzy
 msgid "generic film"
-msgstr "general"
+msgstr "film generic"
 
 #: ../src/iop/colorbalance.c:286
 msgid "similar to Kodak Portra"
-msgstr ""
+msgstr "similar cu Kodak Portra"
 
 #: ../src/iop/colorbalance.c:290
 msgid "similar to Kodak Ektar"
-msgstr ""
+msgstr "similar cu Kodak Ektar"
 
 #: ../src/iop/colorbalance.c:294
 msgid "similar to Kodachrome"
-msgstr ""
+msgstr "similar cu Kodakchrome"
 
 #: ../src/iop/colorbalance.c:301 ../src/iop/exposure.c:127
 #: ../src/iop/profile_gamma.c:126
 #, fuzzy
 msgctxt "accel"
 msgid "mode"
-msgstr "model"
+msgstr "mod"
 
 #: ../src/iop/colorbalance.c:302
 #, fuzzy
@@ -6942,7 +6942,7 @@ msgstr ""
 
 #: ../src/iop/colorbalance.c:2377
 msgid "RGBL"
-msgstr ""
+msgstr "RGBL"
 
 #: ../src/iop/colorbalance.c:2388
 #, fuzzy
@@ -7187,11 +7187,11 @@ msgstr ""
 #: ../src/iop/colorchecker.c:1391
 #, fuzzy
 msgid "relative"
-msgstr "activ"
+msgstr "relativ"
 
 #: ../src/iop/colorchecker.c:1392
 msgid "absolute"
-msgstr ""
+msgstr "absolut"
 
 #: ../src/iop/colorcontrast.c:90
 #, fuzzy
@@ -7283,7 +7283,7 @@ msgstr "profilul de intrare nesuportat a fost înlocuit de rgb liniar!"
 #: ../src/iop/colorin.c:2069
 #, fuzzy
 msgid "input profile"
-msgstr "profil de ieșire"
+msgstr "profil de intrare"
 
 #: ../src/iop/colorin.c:2073
 #, fuzzy
@@ -7308,7 +7308,7 @@ msgstr ""
 #: ../src/iop/colorize.c:88
 #, fuzzy
 msgid "colorize"
-msgstr "culoare"
+msgstr "colorare (adaugă culoare)"
 
 #: ../src/iop/colorize.c:127
 #, fuzzy
@@ -7546,7 +7546,7 @@ msgstr ""
 
 #: ../src/iop/colortransfer.c:100
 msgid "color transfer"
-msgstr "transfer de culoare"
+msgstr "transfer dae culoare"
 
 #: ../src/iop/colortransfer.c:121
 #, fuzzy
