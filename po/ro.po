@@ -7614,7 +7614,7 @@ msgstr "tonuri naturale ale pielii"
 #: ../src/iop/colorzones.c:649
 #, fuzzy
 msgid "black & white film"
-msgstr "Alb-negru"
+msgstr "film alb-negru"
 
 #: ../src/iop/colorzones.c:2068 ../src/iop/retouch.c:2238
 #: ../src/iop/toneequal.c:1964
@@ -7633,7 +7633,7 @@ msgstr ""
 #: ../src/iop/colorzones.c:2306
 #, fuzzy
 msgid "edit by area"
-msgstr "editează stil"
+msgstr "editează zona"
 
 #: ../src/iop/colorzones.c:2308
 msgid "edit the curve nodes by area"
@@ -7655,11 +7655,11 @@ msgstr ""
 #: ../src/iop/colorzones.c:2333
 #, fuzzy
 msgid "process mode"
-msgstr "mod focalizare"
+msgstr "mod procesare"
 
 #: ../src/iop/colorzones.c:2335
 msgid "strong"
-msgstr ""
+msgstr "intens"
 
 #: ../src/iop/colorzones.c:2337
 msgid "choose between a smoother or stronger effect"
@@ -7669,7 +7669,7 @@ msgstr ""
 #: ../src/iop/tonecurve.c:1380
 #, fuzzy
 msgid "interpolation method"
-msgstr "metoda diagonală"
+msgstr "metoda de interpolare"
 
 #: ../src/iop/colorzones.c:2375 ../src/iop/rgbcurve.c:1600
 #: ../src/iop/tonecurve.c:1382
@@ -7701,7 +7701,7 @@ msgstr ""
 #: ../src/iop/defringe.c:455
 #, fuzzy
 msgid "operation mode"
-msgstr "autor"
+msgstr "mod operare"
 
 #: ../src/iop/defringe.c:456
 msgid "global average (fast)"
@@ -7765,7 +7765,7 @@ msgstr "metodă"
 
 #: ../src/iop/demosaic.c:5122
 msgid "PPG (fast)"
-msgstr ""
+msgstr "PPG (rapid)"
 
 #: ../src/iop/demosaic.c:5123
 msgid "AMaZE (slow)"
@@ -7829,15 +7829,15 @@ msgstr ""
 #: ../src/iop/demosaic.c:5150
 #, fuzzy
 msgid "three times"
-msgstr "dată/oră"
+msgstr "de trei ori"
 
 #: ../src/iop/demosaic.c:5151
 msgid "four times"
-msgstr ""
+msgstr "de patru ori"
 
 #: ../src/iop/demosaic.c:5152
 msgid "five times"
-msgstr ""
+msgstr "de cinci ori"
 
 #: ../src/iop/demosaic.c:5153
 msgid "how many color smoothing median steps after demosaicing"
@@ -7849,7 +7849,7 @@ msgstr "potrivește nuanțele de verde"
 
 #: ../src/iop/demosaic.c:5158
 msgid "disabled"
-msgstr ""
+msgstr "dezactivat"
 
 #: ../src/iop/demosaic.c:5159
 msgid "local average"
@@ -8023,7 +8023,7 @@ msgstr "resetează parametrii"
 #: ../src/iop/denoiseprofile.c:4069
 #, fuzzy
 msgid "preserve shadows"
-msgstr "corecţie"
+msgstr "păstrează umbrele"
 
 #: ../src/iop/denoiseprofile.c:4070
 #, fuzzy
@@ -8123,7 +8123,7 @@ msgstr ""
 
 #: ../src/iop/dither.c:795
 msgid "random"
-msgstr ""
+msgstr "aleator"
 
 #: ../src/iop/dither.c:796
 msgid "floyd-steinberg 1-bit B&W"
@@ -8293,8 +8293,8 @@ msgstr ""
 #. This gets filled in by process
 #: ../src/iop/exposure.c:934
 msgid "what exposure correction has actually been used"
-msgstr ""
-
+msgstr "ce corecție de expunere a fost utilizată"
+  
 #: ../src/iop/filmic.c:174
 #, fuzzy
 msgid "filmic"
@@ -8480,7 +8480,7 @@ msgstr ""
 #. monotonic spline
 #: ../src/iop/filmic.c:1808
 msgid "optimized"
-msgstr ""
+msgstr "optimizat"
 
 #: ../src/iop/filmic.c:1810
 msgid "change this method if you see reversed contrast or faded blacks"
@@ -8580,13 +8580,13 @@ msgstr ""
 #, fuzzy
 msgctxt "accel"
 msgid "white exposure"
-msgstr "expunere"
+msgstr "expunere alb"
 
 #: ../src/iop/filmicrgb.c:269
 #, fuzzy
 msgctxt "accel"
 msgid "black exposure"
-msgstr "expunere"
+msgstr "expunere negru"
 
 #: ../src/iop/filmicrgb.c:270
 msgctxt "accel"
@@ -8601,7 +8601,7 @@ msgstr ""
 #: ../src/iop/filmicrgb.c:273
 msgctxt "accel"
 msgid "latitude"
-msgstr ""
+msgstr "latitudine de expunere"
 
 #: ../src/iop/filmicrgb.c:274
 #, fuzzy
@@ -8624,7 +8624,7 @@ msgstr ""
 
 #: ../src/iop/filmicrgb.c:1430
 msgid "scene"
-msgstr ""
+msgstr "scenă"
 
 #: ../src/iop/filmicrgb.c:1431
 msgid "look"
@@ -8710,12 +8710,12 @@ msgstr ""
 #: ../src/iop/flip.c:397 ../src/iop/flip.c:398
 #, fuzzy
 msgid "autodetect"
-msgstr "automat"
+msgstr "detectare automată"
 
 #: ../src/iop/flip.c:401
 #, fuzzy
 msgid "no rotation"
-msgstr "rotire"
+msgstr "fără rotire"
 
 #: ../src/iop/flip.c:404
 #, fuzzy
@@ -8730,7 +8730,7 @@ msgstr "întoarce imaginea pe verticală"
 #: ../src/iop/flip.c:408
 #, fuzzy
 msgid "rotate by -90 degrees"
-msgstr "rotește imaginile selectate cu 90 de grade în sensul acelor de ceas"
+msgstr "rotește imaginile selectate cu 90 de grade în sensul invers acelor de ceas"
 
 #: ../src/iop/flip.c:410
 #, fuzzy
@@ -8740,7 +8740,7 @@ msgstr "rotește imaginile selectate cu 90 de grade în sensul acelor de ceas"
 #: ../src/iop/flip.c:412
 #, fuzzy
 msgid "rotate by 180 degrees"
-msgstr "rotește imaginile selectate cu 90 de grade în sensul acelor de ceas"
+msgstr "rotește imaginile selectate cu 180 de grade în sensul acelor de ceas"
 
 #: ../src/iop/flip.c:526
 #, fuzzy
@@ -8750,12 +8750,12 @@ msgstr "rotire"
 #: ../src/iop/flip.c:530
 #, fuzzy
 msgid "rotate 90 degrees CCW"
-msgstr "rotește imaginile selectate cu 90 de grade în sensul acelor de ceas"
+msgstr "rotește 90 de grade în sensul invers acelor de ceas"
 
 #: ../src/iop/flip.c:535
 #, fuzzy
 msgid "rotate 90 degrees CW"
-msgstr "rotește imaginile selectate cu 90 de grade în sensul acelor de ceas"
+msgstr "rotește 90 de grade în sensul acelor de ceas"
 
 #: ../src/iop/flip.c:547 ../src/libs/live_view.c:168
 #, fuzzy
