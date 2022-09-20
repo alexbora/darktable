@@ -9056,7 +9056,7 @@ msgstr[1] "s-au reparat %d pixeli"
 #: ../src/iop/hotpixels.c:469
 #, fuzzy
 msgid "lower threshold for hot pixel"
-msgstr "pragul de jos"
+msgstr "pragul de jos pentru pixeli morți"
 
 #: ../src/iop/hotpixels.c:477
 #, fuzzy
@@ -9088,7 +9088,7 @@ msgstr ""
 
 #: ../src/iop/invert.c:114
 msgid "invert"
-msgstr ""
+msgstr "inversează"
 
 #: ../src/iop/invert.c:134
 #, fuzzy
@@ -9098,7 +9098,7 @@ msgstr "culege culoarea din imagine"
 
 #: ../src/iop/invert.c:605
 msgid "color of film material"
-msgstr ""
+msgstr "culoarea materialului de film"
 
 #: ../src/iop/invert.c:611
 #, fuzzy
@@ -9128,12 +9128,12 @@ msgstr "scală"
 #: ../src/iop/lens.cc:173
 msgctxt "accel"
 msgid "TCA R"
-msgstr ""
+msgstr "TCA R"
 
 #: ../src/iop/lens.cc:174
 msgctxt "accel"
 msgid "TCA B"
-msgstr ""
+msgstr "TCA B"
 
 #: ../src/iop/lens.cc:176
 #, fuzzy
@@ -9163,7 +9163,7 @@ msgstr "control cameră"
 #, fuzzy
 msgctxt "accel"
 msgid "lens model"
-msgstr "model"
+msgstr "model obiectiv"
 
 #: ../src/iop/lens.cc:181
 #, fuzzy
@@ -9186,7 +9186,7 @@ msgstr ""
 
 #: ../src/iop/lens.cc:1835
 msgid "camera/lens not found - please select manually"
-msgstr ""
+msgstr "camera/obiectiv nu au fost găsite - vă rugăm selectați manual"
 
 #: ../src/iop/lens.cc:1838
 msgid "try to locate your camera/lens in the above two menus"
@@ -9233,30 +9233,30 @@ msgstr "distanţa de subiect "
 
 #: ../src/iop/lens.cc:2332
 msgid "distortion & TCA"
-msgstr ""
+msgstr "distorsiune și TCA"
 
 #: ../src/iop/lens.cc:2338
 #, fuzzy
 msgid "distortion & vignetting"
-msgstr "vinietare"
+msgstr "distorsiune și vinietare"
 
 #: ../src/iop/lens.cc:2344
 #, fuzzy
 msgid "TCA & vignetting"
-msgstr "vinietare"
+msgstr "TCA și vinietare"
 
 #: ../src/iop/lens.cc:2350
 msgid "only distortion"
-msgstr ""
+msgstr "doar distorsiune"
 
 #: ../src/iop/lens.cc:2356
 msgid "only TCA"
-msgstr ""
+msgstr "doar TCA"
 
 #: ../src/iop/lens.cc:2362
 #, fuzzy
 msgid "only vignetting"
-msgstr "vinietare"
+msgstr "doar vinietare"
 
 #: ../src/iop/lens.cc:2382
 msgid "find camera"
@@ -9269,12 +9269,12 @@ msgstr "găseşte obiectiv"
 #: ../src/iop/lens.cc:2427
 #, fuzzy
 msgid "corrections"
-msgstr "opțiuni principale"
+msgstr "corecții"
 
 #: ../src/iop/lens.cc:2429
 #, fuzzy
 msgid "which corrections to apply"
-msgstr "grup corecţie"
+msgstr "ce corecții trebuie aplicate"
 
 #: ../src/iop/lens.cc:2442
 msgid "geometry"
@@ -9332,7 +9332,7 @@ msgstr "corecţie"
 #: ../src/iop/lens.cc:2473
 #, fuzzy
 msgid "distort"
-msgstr "istoric"
+msgstr "distorsionează"
 
 #: ../src/iop/lens.cc:2478
 #, fuzzy
@@ -9341,7 +9341,7 @@ msgstr "aberaţii cromatice"
 
 #: ../src/iop/lens.cc:2479
 msgid "TCA red"
-msgstr ""
+msgstr "TCA roșu"
 
 #: ../src/iop/lens.cc:2484
 #, fuzzy
@@ -9351,16 +9351,16 @@ msgstr "aberaţii cromatice"
 #: ../src/iop/lens.cc:2485
 #, fuzzy
 msgid "TCA blue"
-msgstr "albastru"
+msgstr "TCA albastru"
 
 #: ../src/iop/lens.cc:2492
 #, fuzzy
 msgid "corrections done: "
-msgstr "grup corecţie"
+msgstr "corecții efectuate:"
 
 #: ../src/iop/lens.cc:2493
 msgid "which corrections have actually been done"
-msgstr ""
+msgstr "ce corecții au fost aplicate"
 
 #: ../src/iop/levels.c:116
 msgid "levels"
@@ -9400,7 +9400,7 @@ msgstr "negru"
 
 #: ../src/iop/levels.c:742
 msgid "gray percentile"
-msgstr ""
+msgstr "procentaj gri"
 
 #: ../src/iop/levels.c:744
 msgid "gray"
@@ -9409,15 +9409,15 @@ msgstr "gri"
 #: ../src/iop/levels.c:747
 #, fuzzy
 msgid "white percentile"
-msgstr "Fluorescenţă albă"
+msgstr "procentaj alb"
 
 #: ../src/iop/levels.c:749
 msgid "white"
-msgstr ""
+msgstr "alb"
 
 #: ../src/iop/liquify.c:289
 msgid "liquify"
-msgstr ""
+msgstr "lichefiază"
 
 #: ../src/iop/liquify.c:3490
 msgid ""
