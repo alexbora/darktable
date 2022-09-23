@@ -9671,7 +9671,7 @@ msgstr ""
 #: ../src/iop/lut3d.c:355
 #, c-format
 msgid "invalid png header from %s"
-msgstr ""
+msgstr "header invalid pentru fișierul %s"
 
 #: ../src/iop/lut3d.c:363
 #, c-format
@@ -9681,7 +9681,7 @@ msgstr ""
 #: ../src/iop/lut3d.c:375
 #, c-format
 msgid "invalid level in png file %d %d"
-msgstr ""
+msgstr "nivel invalid pentru fișierul png %d %d"
 
 #: ../src/iop/lut3d.c:390 ../src/iop/lut3d.c:407
 msgid "error - allocating buffer for png lut"
