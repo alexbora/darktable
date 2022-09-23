@@ -9554,11 +9554,11 @@ msgstr "crepuscul"
 
 #: ../src/iop/lowlight.c:421
 msgid "night street lit"
-msgstr "stradal nocturn iluminat"
+msgstr "nocturn iluminat stradal"
 
 #: ../src/iop/lowlight.c:438
 msgid "night street"
-msgstr "stradal nocturn"
+msgstr "nocturn stadal"
 
 #: ../src/iop/lowlight.c:455
 msgid "night street dark"
