@@ -33,7 +33,7 @@ msgstr "grafică;fotografie;raw"
 #: ../build/src/preferences_gen.h:2104
 #, fuzzy
 msgid "GUI options"
-msgstr "opţiuni gui"
+msgstr "opţiuni interfață"
 
 #: ../build/src/preferences_gen.h:2107 ../src/libs/import.c:107
 msgid "import"
@@ -95,7 +95,7 @@ msgstr "dublu clic pentru a reseta la `%s'"
 #: ../build/src/preferences_gen.h:4009 ../build/src/preferences_gen.h:4029
 msgctxt "preferences"
 msgid "FALSE"
-msgstr ""
+msgstr "FALS"
 
 #: ../build/src/preferences_gen.h:2128
 msgid ""
@@ -172,43 +172,43 @@ msgstr ""
 #: ../build/src/preferences_gen.h:2321
 msgctxt "preferences"
 msgid "small"
-msgstr ""
+msgstr "mic"
 
 #: ../build/src/preferences_gen.h:2326
 msgctxt "preferences"
 msgid "VGA"
-msgstr ""
+msgstr "VGA"
 
 #: ../build/src/preferences_gen.h:2331 ../build/src/preferences_gen.h:2371
 msgctxt "preferences"
 msgid "720p"
-msgstr ""
+msgstr "720p"
 
 #: ../build/src/preferences_gen.h:2336
 msgctxt "preferences"
 msgid "1080p"
-msgstr ""
+msgstr "1080p"
 
 #: ../build/src/preferences_gen.h:2341
 msgctxt "preferences"
 msgid "WQXGA"
-msgstr ""
+msgstr "WOXGA"
 
 #: ../build/src/preferences_gen.h:2346
 msgctxt "preferences"
 msgid "4K"
-msgstr ""
+msgstr "4K"
 
 #: ../build/src/preferences_gen.h:2351
 msgctxt "preferences"
 msgid "5K"
-msgstr ""
+msgstr "5K"
 
 #: ../build/src/preferences_gen.h:2356 ../build/src/preferences_gen.h:3692
 #, fuzzy
 msgctxt "preferences"
 msgid "never"
-msgstr "inversează"
+msgstr "niciodată"
 
 #: ../build/src/preferences_gen.h:2374
 msgid ""
