@@ -23,12 +23,12 @@ msgstr ""
 #: ../data/darktable.desktop.in.h:2
 #, fuzzy
 msgid "Organize and develop images from digital cameras"
-msgstr "organizează şi developează imagini de la camere digitale"
+msgstr "Organizează şi developează imagini de la camere digitale"
 
 #. TRANSLATORS: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: ../build/data/darktable.desktop.in.h:4 ../data/darktable.desktop.in.h:4
 msgid "graphics;photography;raw;"
-msgstr ""
+msgstr "grafică;fotografie;raw"
 
 #: ../build/src/preferences_gen.h:2104
 #, fuzzy
