@@ -9733,7 +9733,7 @@ msgstr "selectează stil"
 #: ../src/iop/lut3d.c:1014
 #, fuzzy
 msgid "_select"
-msgstr "selectează"
+msgstr "_selectează"
 
 #: ../src/iop/lut3d.c:1031
 msgid "hald cluts (png)"
@@ -9767,11 +9767,11 @@ msgstr ""
 
 #: ../src/iop/lut3d.c:1117
 msgid "application color space"
-msgstr ""
+msgstr "spațiul de culoare al aplicațtiei"
 
 #: ../src/iop/lut3d.c:1119
 msgid "REC.709"
-msgstr ""
+msgstr "REC.709"
 
 #: ../src/iop/lut3d.c:1120
 msgid "lin sRGB/REC.709"
@@ -9789,7 +9789,7 @@ msgstr ""
 #: ../src/iop/lut3d.c:1127
 #, fuzzy
 msgid "interpolation"
-msgstr "rotire"
+msgstr "interpolare"
 
 #: ../src/iop/lut3d.c:1128
 msgid "tetrahedral"
@@ -9798,12 +9798,12 @@ msgstr ""
 #: ../src/iop/lut3d.c:1129
 #, fuzzy
 msgid "trilinear"
-msgstr "rectiliniu"
+msgstr "triliniar"
 
 #: ../src/iop/lut3d.c:1130
 #, fuzzy
 msgid "pyramid"
-msgstr "panoramic"
+msgstr "piramidă"
 
 #: ../src/iop/lut3d.c:1132
 #, fuzzy
@@ -9813,7 +9813,7 @@ msgstr "selectează saturaţia nuanţelor din umbre"
 #: ../src/iop/mask_manager.c:45 ../src/libs/masks.c:56
 #, fuzzy
 msgid "mask manager"
-msgstr "nume fișier"
+msgstr ""
 
 #: ../src/iop/monochrome.c:74
 msgid "monochrome"
@@ -9822,7 +9822,7 @@ msgstr "monocrom"
 #: ../src/iop/monochrome.c:115
 #, fuzzy
 msgid "red filter"
-msgstr "fişier stocare"
+msgstr "filtru roșu"
 
 #: ../src/iop/monochrome.c:594
 msgid "drag and scroll mouse wheel to adjust the virtual color filter"
@@ -9888,12 +9888,12 @@ msgstr "gama"
 #: ../src/iop/profile_gamma.c:129
 msgctxt "accel"
 msgid "dynamic range"
-msgstr ""
+msgstr "gama dinamică"
 
 #: ../src/iop/profile_gamma.c:130
 msgctxt "accel"
 msgid "grey point"
-msgstr ""
+msgstr "punct de gri"
 
 #: ../src/iop/profile_gamma.c:131
 #, fuzzy
@@ -9903,7 +9903,7 @@ msgstr "umbre"
 
 #: ../src/iop/profile_gamma.c:158
 msgid "16 EV dynamic range (generic)"
-msgstr ""
+msgstr "gamă dinamică 16 EV (generică)"
 
 #: ../src/iop/profile_gamma.c:163
 msgid "14 EV dynamic range (generic)"
