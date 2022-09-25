@@ -25,9 +25,10 @@
         Anders Kvist <akv@lnxbx.dk> and Klaus Post <klauspost@gmail.com>
  */
 
+#include "common/darktable.h"
 #include "config.h"
 #include "cpuid.h"
-#include "common/darktable.h"
+
 #include <glib.h>
 
 #ifdef HAVE_CPUID_H
@@ -37,41 +38,49 @@
 #if defined(HAVE___GET_CPUID)
 dt_cpu_flags_t dt_detect_cpu_features()
 {
-  guint32 ax, bx, cx, dx;
+  guint32               ax, bx, cx, dx;
   static dt_cpu_flags_t cpuflags = 0;
-  static GMutex lock;
+  static GMutex         lock;
 
   g_mutex_lock(&lock);
-  if(__get_cpuid(0x00000000,&ax,&bx,&cx,&dx))
-  {
+  if (__get_cpuid(0x00000000, &ax, &bx, &cx, &dx)) {
     /* Request for standard features */
-    if(__get_cpuid(0x00000001,&ax,&bx,&cx,&dx))
-    {
-      if(dx & 0x00800000) cpuflags |= CPU_FLAG_MMX;
-      if(dx & 0x02000000) cpuflags |= CPU_FLAG_SSE;
-      if(dx & 0x04000000) cpuflags |= CPU_FLAG_SSE2;
-      if(dx & 0x00008000) cpuflags |= CPU_FLAG_CMOV;
+    if (__get_cpuid(0x00000001, &ax, &bx, &cx, &dx)) {
+      if (dx & 0x00800000)
+        cpuflags |= CPU_FLAG_MMX;
+      if (dx & 0x02000000)
+        cpuflags |= CPU_FLAG_SSE;
+      if (dx & 0x04000000)
+        cpuflags |= CPU_FLAG_SSE2;
+      if (dx & 0x00008000)
+        cpuflags |= CPU_FLAG_CMOV;
 
-      if(cx & 0x00000001) cpuflags |= CPU_FLAG_SSE3;
-      if(cx & 0x00000200) cpuflags |= CPU_FLAG_SSSE3;
-      if(cx & 0x00040000) cpuflags |= CPU_FLAG_SSE4_1;
-      if(cx & 0x00080000) cpuflags |= CPU_FLAG_SSE4_2;
+      if (cx & 0x00000001)
+        cpuflags |= CPU_FLAG_SSE3;
+      if (cx & 0x00000200)
+        cpuflags |= CPU_FLAG_SSSE3;
+      if (cx & 0x00040000)
+        cpuflags |= CPU_FLAG_SSE4_1;
+      if (cx & 0x00080000)
+        cpuflags |= CPU_FLAG_SSE4_2;
 
-      if(cx & 0x08000000) cpuflags |= CPU_FLAG_AVX;
+      if (cx & 0x08000000)
+        cpuflags |= CPU_FLAG_AVX;
     }
 
     /* Are there extensions? */
-    if(__get_cpuid(0x80000000,&ax,&bx,&cx,&dx))
-    {
+    if (__get_cpuid(0x80000000, &ax, &bx, &cx, &dx)) {
       /* Ask extensions */
-      if(__get_cpuid(0x80000001,&ax,&bx,&cx,&dx))
-      {
-        if(dx & 0x80000000) cpuflags |= CPU_FLAG_3DNOW;
-        if(dx & 0x40000000) cpuflags |= CPU_FLAG_3DNOW_EXT;
-        if(dx & 0x00400000) cpuflags |= CPU_FLAG_AMD_ISSE;
+      if (__get_cpuid(0x80000001, &ax, &bx, &cx, &dx)) {
+        if (dx & 0x80000000)
+          cpuflags |= CPU_FLAG_3DNOW;
+        if (dx & 0x40000000)
+          cpuflags |= CPU_FLAG_3DNOW_EXT;
+        if (dx & 0x00400000)
+          cpuflags |= CPU_FLAG_AMD_ISSE;
       }
     }
-    fprintf(stderr,"\nfound cpuid instruction, dtflags %x",cpuflags);
+    fprintf(stderr, "\nfound cpuid instruction, dtflags %x", cpuflags);
   }
   g_mutex_unlock(&lock);
   return cpuflags;
@@ -81,7 +90,8 @@ dt_cpu_flags_t dt_detect_cpu_features()
 {
   static dt_cpu_flags_t cpuflags = 0;
 
-  fprintf(stderr, "[dt_detect_cpu_features] Not implemented for this architecture.\n");
+  fprintf(stderr,
+          "[dt_detect_cpu_features] Not implemented for this architecture.\n");
   fprintf(stderr, "[dt_detect_cpu_features] Please contribute a patch.\n");
 
   return cpuflags;
@@ -93,4 +103,3 @@ dt_cpu_flags_t dt_detect_cpu_features()
 // vim: shiftwidth=2 expandtab tabstop=2 cindent
 // kate: tab-indents: off; indent-width 2; replace-tabs on; indent-mode cstyle; remove-trailing-spaces modified;
 // clang-format on
-
