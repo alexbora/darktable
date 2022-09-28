@@ -317,7 +317,7 @@ msgstr ""
 #, fuzzy
 msgctxt "preferences"
 msgid "low"
-msgstr "scazut"
+msgstr "scăzut"
 
 #: ../build/src/preferences_gen.h:2569 ../build/src/preferences_gen.h:2589
 msgctxt "preferences"
