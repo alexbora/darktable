@@ -349,7 +349,7 @@ msgstr "selectează nuanţa de culoare"
 #, fuzzy
 msgctxt "preferences"
 msgid "grey scale"
-msgstr "scală monocroma"
+msgstr "scală monocromă"
 
 #: ../build/src/preferences_gen.h:2634
 msgid ""
@@ -389,7 +389,7 @@ msgstr "centrare pe orizontală"
 #: ../build/src/preferences_gen.h:2692 ../build/src/preferences_gen.h:2712
 msgctxt "preferences"
 msgid "bottom"
-msgstr ""
+msgstr "jos"
 
 #: ../build/src/preferences_gen.h:2697
 msgctxt "preferences"
@@ -403,7 +403,7 @@ msgstr ""
 #: ../build/src/preferences_gen.h:2733
 msgctxt "preferences"
 msgid "show search text"
-msgstr "arata textul cautarii"
+msgstr "arată textul căutării"
 
 #: ../build/src/preferences_gen.h:2738
 #, fuzzy
@@ -466,7 +466,7 @@ msgstr ""
 
 #: ../build/src/preferences_gen.h:2855
 msgid "map / geolocalisation"
-msgstr ""
+msgstr "hartă / geolocalizare"
 
 #: ../build/src/preferences_gen.h:2864
 #, fuzzy
@@ -482,7 +482,7 @@ msgstr ""
 
 #: ../build/src/preferences_gen.h:2884
 msgid "maximum number of images drawn on map"
-msgstr "numarul maxim de imagini pw harta"
+msgstr "numarul maxim de imagini pw hartă"
 
 #: ../build/src/preferences_gen.h:2903
 msgid ""
